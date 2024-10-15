@@ -1,0 +1,42 @@
+body {
+background-image: url(images/bg_page.png);
+background-repeat: repeat-y;
+background-position: center top;
+background-color: rgb(252, 248, 176);
+margin: 0;
+padding: 0;
+}
+#content {
+max-width:750px;
+margin: 0 auto;
+}
+#banner img {
+width:100%;
+height: auto;
+height: 200px;
+}
+h1, h2, h3 {
+border-top: 2px solid rgb(127, 132, 75);
+color:rgb(167, 130, 49);
+margin: 20px 0;
+padding-left: 50px;
+}
+p {
+margin: 15px 50px;
+text-align: justify;
+}
+p:nth-of-type(1){
+color: rgb(193, 128, 84);
+font-size: 18px;
+margin: 15px 50px;
+}
+.advice {
+padding: 15px;
+margin: 25px 50px;
+text-align:left;
+border: 2px dashed rgb(161, 155, 95);
+background-color: rgb(252, 248, 171);
+}
+.advice strong {
+color: red;
+}
